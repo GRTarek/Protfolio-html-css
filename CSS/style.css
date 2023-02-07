@@ -31,7 +31,8 @@ nav a {
 .btn-primary {
     color: white;
     background-color: #FD6E0A;
-    width: 150px;
+    min-width: 150px;
+    max-width: 200px;
     height: 64px;
     border-radius: 5px;
     border: none;
