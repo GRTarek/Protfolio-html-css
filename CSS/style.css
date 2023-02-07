@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    background-color: ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.nave-title {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav button a {
+    color: white;
+    font-size: 18px;
+}
+
+.banner {
+    padding-top: 20px;
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+
+}
+
+/* start banner style */
+.banner-section {
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+
+.banner-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747
+}
+
+.banner-sub-title {
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+
+/* main section */
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-title {
+
+
+    color: #181818;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.about-contain {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-table {
+
+    padding-right: 5px;
+}
+
+.about-table tr {
+    padding-left: 10px;
+}
+
+/* container style */
+
+
+.info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+.about-information {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+/* what i do section */
+
+.what-i-do {
+    margin-top: 130px;
+}
+
+
+
+.whatido-description {
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    padding: 0px 150px;
+}
+
+.skill-container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skill {
+    width: 267px;
+    height: 377px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding-left: 24px;
+}
+
+.skill-img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    padding-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+    padding-right: 33px;
+    line-height: 28px;
+    width: 201px;
+    height: 196px;
+
+}
+
+/* resume section style */
+
+
+
+.resume-content {
+    display: flex;
+    gap: 74px;
+
+}
+
+.resume-information-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+
+
+}
+
+.resume-section {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    /* width: 511px;
+    height: 175px; */
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    padding-bottom: 10px;
+}
+
+.resume-item {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+
+}
+
+.resume-description {
+    color: #757575;
+
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    /* margin-bottom: 30px; */
+
+}
+
+.btn {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 113px;
+
+}
+
+/* footer section */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    gap: 117px;
+
+    /* padding-left: 230px;
+    padding-right: 230px; */
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.footer-description {
+    color: #474747;
+    padding-bottom: 30px;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 24px;
+}
+
+.input-item {
+    display: grid;
+    margin-bottom: 24px;
+}
+
+#name {
+    width: 461px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+#email {
+    margin-bottom: 24px;
+    width: 461px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+#massage {
+    width: 461px;
+    height: 180px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 24px;
+}
+
+input {
+    padding-left: 30px;
+}
+
+textarea {
+    padding-left: 30px;
+    padding-top: 18px;
+}
